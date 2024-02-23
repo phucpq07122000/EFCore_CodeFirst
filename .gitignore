@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/EFCore_CodeFirst/FileContentIndex
+/.vs/EFCore_CodeFirst/v17
+/.vs/ProjectEvaluation
+/EFCore_CodeFirst/obj
