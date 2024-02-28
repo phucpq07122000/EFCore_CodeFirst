@@ -7,3 +7,4 @@
 /.vs/ProjectEvaluation
 /EFCore_CodeFirst/obj
 /.vs/EFCore_CodeFirst/DesignTimeBuild
+/EFCore_CodeFirst/bin/Debug/net6.0
