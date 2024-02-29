@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace EFCore_CodeFirst.Migrations
 {
     [DbContext(typeof(CodeFirstDBContext))]
-    [Migration("20240228164424_CreateAll")]
-    partial class CreateAll
+    [Migration("20240229113126_CreateTable")]
+    partial class CreateTable
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

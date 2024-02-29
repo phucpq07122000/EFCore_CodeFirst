@@ -15,6 +15,7 @@ namespace EFCore_CodeFirst
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseNpgsql("Host=ep-crimson-breeze-a1kxgcsp.ap-southeast-1.aws.neon.tech;Database=MyWork1;Username=phucpq07122000;Password=pMG49dRqZQBf");
+            AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
         }
 
 

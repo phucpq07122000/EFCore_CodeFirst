@@ -6,7 +6,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace EFCore_CodeFirst.Migrations
 {
-    public partial class CreateAll : Migration
+    public partial class CreateTable : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
